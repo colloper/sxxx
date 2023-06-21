@@ -1409,7 +1409,7 @@ do
             Visible = page.open
         }, section.visibleContent)
         --
-        utility:LoadImage(toggle__gradient, "gradient", "https://i.imgur.com/Jkwxwku_d.webp?maxwidth=760&fidelity=grand")
+        utility:LoadImage(toggle__gradient, "gradient", "https://raw.githubusercontent.com/xfarzad/Sources/main/gradientdown.png")
         --
         function toggle:Get()
             return toggle.current
@@ -1494,7 +1494,7 @@ do
             if transp then
                 utility:LoadImage(colorpicker__transparency, "cptransp", "https://i.imgur.com/IIPee2A.png")
             end
-            utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/Jkwxwku_d.webp?maxwidth=760&fidelity=grand")
+            utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
             --
             function colorpicker:Set(color, transp_val)
                 if typeof(color) == "table" then
